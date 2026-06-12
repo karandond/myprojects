@@ -8,7 +8,8 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # Changed from ubuntu-latest to windows-latest to support your Windows project
+    runs-on: windows-latest
 
     steps:
     - name: Checkout Code
